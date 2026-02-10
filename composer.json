@@ -1,0 +1,18 @@
+{
+    "name": "andersundsehr/visual-editor-fluid-styled-content-addon",
+    "description": "visual_editor_fluid_styled_content_addon - Adds usage of f:render.text into fluid_styled_content",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^13.4.0",
+        "typo3/cms-fluid-styled-content": "^13.4.0",
+        "friendsoftypo3/visual-editor": "*"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "visual_editor_fluid_styled_content_addon"
+        }
+    }
+}
