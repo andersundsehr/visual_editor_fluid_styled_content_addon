@@ -1,4 +1,4 @@
 lib.contentElement.dataProcessing.1768551979 = record-transformation
 
-lib.contentElement.partialRootPaths.1768551979 = EXT:visual_editor_fluid_styled_content_addon/Resources/Private/Partials/
-lib.contentElement.templateRootPaths.1768551979 = EXT:visual_editor_fluid_styled_content_addon/Resources/Private/Templates/
+lib.contentElement.partialRootPaths.1 = EXT:visual_editor_fluid_styled_content_addon/Resources/Private/Partials/
+lib.contentElement.templateRootPaths.1 = EXT:visual_editor_fluid_styled_content_addon/Resources/Private/Templates/
