@@ -23,6 +23,7 @@ jobs:
       - run: TYPO3_SKIP_ASSET_PUBLISH=true composer require "enshrined/svg-sanitize:1.0.0 as 0.22.99" --dev --sort-packages --no-interaction -W
       - run: composer validate --no-check-publish
       - run: composer check-platform-reqs
-      - run: composer audit
+      # TYPO3 13 uses abandoned doctrine/annotations; still fail on security advisories.
+      - run: composer audit --abandoned=report
       - run: bash tests/typo3-svg-sanitizer.sh
       - run: find . -name '*.php' -not -path './vendor/*' -not -path './.git/*' -print0 | xargs -0 -n 1 php -l
